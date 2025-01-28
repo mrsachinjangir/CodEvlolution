@@ -34,6 +34,7 @@ body {
 }
 .widgetimg{
 	margin: auto;
+	width: 50%;
 }
 .widgetimg img{
     width: 100%;
@@ -128,7 +129,7 @@ body {
 
 
 .widget {
-	width: 100%;
+	width: 50%;
 	max-width: 600px;
 	border-radius: 8px;
 	
@@ -169,6 +170,32 @@ body {
 	.header-navigation button {
 		display: none;
 	}
+}
+@media (max-width: 800px) {
+		
+.widget {
+	width: 100%;
+	}
+
+
+.widget h2 {
+
+	font-size: 2.5rem;
+	font-weight: 700;
+	line-height: 1.25;
+	color: rgb(0, 0, 56);
+}
+
+.widget span {
+	padding: 0.125em .50em;
+	margin-top: 1rem;
+	
+}
+
+.widget strong {
+	font-weight: 700;
+}
+
 }
 
 .search-box {
